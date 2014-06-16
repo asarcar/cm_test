@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project (PART2)
+set(CMAKE_CXX_FLAGS "-std=c++11 -Wall")
+message("CMAKE_BUILD_TYPE is ${CMAKE_BUILD_TYPE}")
+add_executable(PART2 main.cc)
